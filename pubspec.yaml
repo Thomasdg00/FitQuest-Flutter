@@ -1,0 +1,32 @@
+name: fitquest
+description: "FitQuest Flutter is an Android-first fitness tracking app with GPS tracking, local workout history, Google Maps route previews, Material 3 UI, and Italian localization."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  drift: ^2.29.0
+  drift_flutter: ^0.2.4
+  flutter_riverpod: ^2.6.1
+  geolocator: ^14.0.3
+  google_maps_flutter: ^2.0.0
+  sqlite3_flutter_libs: ^0.5.39
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.10.4
+  drift_dev: ^2.29.0
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
