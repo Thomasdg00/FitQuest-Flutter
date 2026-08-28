@@ -41,7 +41,7 @@ class HomeScreen extends ConsumerWidget {
     }
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Inizio')),
+      appBar: AppBar(title: const Text('FitQuest')),
       body: progress.when(
         data: (value) {
           return _HomeContent(
@@ -143,13 +143,6 @@ class _StartTrackingCard extends StatelessWidget {
             Text(
               'Pronto per la prossima attività?',
               style: textTheme.titleMedium?.copyWith(
-                color: colorScheme.onPrimaryContainer,
-              ),
-            ),
-            const SizedBox(height: 8),
-            Text(
-              'Apri la schermata attività per registrare distanza, durata e percorso.',
-              style: textTheme.bodyMedium?.copyWith(
                 color: colorScheme.onPrimaryContainer,
               ),
             ),

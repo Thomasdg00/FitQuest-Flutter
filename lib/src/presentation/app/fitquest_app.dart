@@ -49,7 +49,7 @@ class _FitQuestShellState extends State<FitQuestShell> {
           NavigationDestination(
             key: Key('nav-home'),
             icon: Icon(Icons.home),
-            label: 'Inizio',
+            label: 'Home',
           ),
           NavigationDestination(
             key: Key('nav-tracking'),

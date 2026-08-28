@@ -32,7 +32,7 @@ void main() {
     );
     await tester.pump();
 
-    expect(find.text('Inizio'), findsWidgets);
+    expect(find.text('FitQuest'), findsOneWidget);
     expect(find.text('Obiettivo settimanale'), findsOneWidget);
     expect(find.text('Nessun obiettivo settimanale impostato'), findsOneWidget);
     expect(find.text('Avvia attività'), findsOneWidget);
