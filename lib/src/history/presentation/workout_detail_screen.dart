@@ -22,7 +22,7 @@ class WorkoutDetailScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Dettaglio attività'),
+        title: const Text('Dettagli attività'),
         actions: [
           if (workoutId != null)
             IconButton(
